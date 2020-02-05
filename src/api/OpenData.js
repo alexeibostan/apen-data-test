@@ -20,7 +20,9 @@ export const getDoctors = (
   if (startsWith && filterField) {
     params['$filter'] = `startswith(${filterField},'${startsWith}')`;
   }
-  return axios.get(`/api/${path}/DataEntities/`, { params });
+  return axios.get(`${ENDPONT_ODATA_PIEMONTE}/api/${path}/DataEntities/`, {
+    params
+  });
 };
 
 export const processError = error => {
