@@ -1,3 +1,7 @@
+## Eperiment with React + Redux and open data from italian region Piemonte
+
+This project was made for studing React and Redux and test some Open Data API [http://www.dati.piemonte.it/sviluppatori.html](www.dati.piemonte.it)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

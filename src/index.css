@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center-progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mapid {
+  height: 180px;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail-viewer {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.detail-viewer-item {
+  margin: 10px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.detail-viewer-item > label {
+  font-weight: 600;
+}
+
+.detail-viewer-item > p {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.package-container {
+  text-align: center;
+}
